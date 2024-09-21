@@ -113,7 +113,7 @@ console.log(1 + '1' + 1 + '1');
 // console.log(8 / '2');
 
 // /,*,-,%
-// + 
+// +
 
 
 // console.log(10 % 3);
@@ -150,12 +150,31 @@ console.log(1 + '1' + 1 + '1');
 // console.log(false + 9);
 
 
+// isAdmin - boolean
+// user - string
+// salary - undefined
+// education - null
 
+console.log('something');
+console.log('everthing');
+console.log('something');
+console.log('everthing');
+console.log('something');
+console.log('everthing');
+console.log('something');
+console.log('everthing');
+console.log('something');
+console.log('something');
+console.log('something');
+console.log('something');
+console.log('something');
+console.log('something');
+console.log('something');
+console.log('something');
+console.log('something');
 
-
-
-
-
+// Ctrl+F2 - to select all
+// Ctrl+D - select step by step
 
 
 
