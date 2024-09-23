@@ -8,7 +8,7 @@
 // 3.Use let, const, and var to declare variables and explain their differences with examples.
 
 // Backticks (Template Literals):
-// 4.Use backticks to create a dynamic message that includes (firstName,lastName,age,country,hobby,occupation) variables.
+// 4.Use backticks to create a dynamic meessage that includes (firstName,lastName,age,country,hobby,occupation) variables.
 
 // (e.g.)
 // let address = 'Nizami';

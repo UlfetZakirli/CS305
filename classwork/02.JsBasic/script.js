@@ -33,13 +33,25 @@
 // let position = 'Developer'
 // let age = 24;
 
+let user = 'Sabir'
+
+console.log('Sabir');
+Аconsole.log(user);
 
 
-// console.log(username + " " + surname);
+console.log("FullName" + "  /   " + " " + username + " " + surname);
+console.log(`FullName   /   ${username} ${surname}`);
+
+// console.log('1' + 1 + 8 + '8');
+// console.log(8 / '8');
+
+
 // console.log(username, surname);
-// console.log(`${username} ${surname}`);
 
+// String, number, BigInt, Boolean, null, undefined, Symbol
 
+// let a = '7';
+// let b = undefined
 // console.log('Name:' + username + ' ' + 'Surname:' + surname);
 
 // console.log(`Name:${username} Surname:${surname}`);
@@ -116,6 +128,11 @@ console.log(1 + '1' + 1 + '1');
 // +
 
 
+// console.log(Math.ceil(6.5)); //7
+// console.log(Math.floor(6.5)); //6
+
+
+
 // console.log(10 % 3);
 // console.log(17 / 4);
 // console.log(5 % 5);
@@ -155,34 +172,30 @@ console.log(1 + '1' + 1 + '1');
 // salary - undefined
 // education - null
 
-console.log('something');
-console.log('everthing');
-console.log('something');
-console.log('everthing');
-console.log('something');
-console.log('everthing');
-console.log('something');
-console.log('everthing');
-console.log('something');
-console.log('something');
-console.log('something');
-console.log('something');
-console.log('something');
-console.log('something');
-console.log('something');
-console.log('something');
-console.log('something');
+// console.log('something');
+// console.log('everthing');
+// console.log('something');
+// console.log('everthing');
+// console.log('something');
+// console.log('everthing');
+// console.log('something');
+// console.log('everthing');
+// console.log('something');
+// console.log('something');
+// console.log('something');
+// console.log('something');
+// console.log('something');
+// console.log('something');
+// console.log('something');
+// console.log('something');
+// console.log('something');
 
 // Ctrl+F2 - to select all
 // Ctrl+D - select step by step
 
-
-
-
-
-
-
-
+// true- 1
+// false- 0
+// console.log(true + false + true + '6');
 
 
 
