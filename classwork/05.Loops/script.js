@@ -37,11 +37,11 @@ const students = ['Sabir', 'Fidan', 'Fatime', 'Mehman', 'Ali', 'Xanlar', 'Cavid'
 // falsy values - 0,null,undefined,"",NaN,'',false
 
 
-if (undefined) {
-    console.log('true value');
-} else {
-    console.log('falsy');
-}
+// if (undefined) {
+//     console.log('true value');
+// } else {
+//     console.log('falsy');
+// }
 
 
 
@@ -90,3 +90,47 @@ let country = 'Azerbaijan'
 // 8.check if 'text' includes('CS') log('success') otherwise log('fail)
 // 9.create list from 0 to 20 (for loop)
 
+
+// loop
+
+// for_in, for_of, while, do/while, for
+
+
+// console.log('  ');
+
+// for (let letter of firstName.slice(0, 4)) {
+//     console.log(letter);
+// }
+
+
+
+
+// for (; index < firstName.length - 2;) {
+//     index++
+//     console.log(firstName[index]);
+// }
+
+// let firstName = 'Nusret'
+// let index = 10
+
+// while (index < firstName.length) {
+//     index++
+//     console.log('while', firstName[index]);
+// }
+
+
+// do {
+//     console.log('do/while', firstName[index]);
+//     index++
+// } while (index < firstName.length);
+
+
+
+// 0, undefined, NaN, false, null,''
+
+
+// if ('.') {
+//     console.log('succes');
+// } else {
+//     console.log('fail');
+// }
