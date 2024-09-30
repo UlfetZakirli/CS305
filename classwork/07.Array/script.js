@@ -19,33 +19,33 @@ const arr2 = ['Sabir', 'Samir', 'Mehman', 'Polat', 'Rufet']
 // console.log(arr2.at(-2));
 // console.log(arr2[arr2.length - 2]);
 
-for (let i = 0; i < arr2.length; i++) {
-    if (arr2[i].startsWith('S')) {
-        console.log(arr2[i]);
-    }
-}
-console.log(' ');
+// for (let i = 0; i < arr2.length; i++) {
+//     if (arr2[i].startsWith('S')) {
+//         console.log(arr2[i]);
+//     }
+// }
+// console.log(' ');
 
-for (let i = 0; i < arr2.length; i++) {
-    if (arr2[i].includes('a')) {
-        console.log(arr2[i]);
-    }
-}
+// for (let i = 0; i < arr2.length; i++) {
+//     if (arr2[i].includes('a')) {
+//         console.log(arr2[i]);
+//     }
+// }
 
 
-const nums = [4, 5, 7, 8, 10, 33, 0]
+// const nums = [4, 5, 7, 8, 10, 33, 0]
 
-for (let i = 0; i < nums.length; i++) {
-    if (nums[i] % 2) {
-        console.log(nums[i]);
-    }
-}
+// for (let i = 0; i < nums.length; i++) {
+//     if (nums[i] % 2) {
+//         console.log(nums[i]);
+//     }
+// }
 
-let sum = 0
-for (let i = 0; i < nums.length; i++) {
-    sum += nums[i]
-}
-console.log('sum', sum)
+// let sum = 0
+// for (let i = 0; i < nums.length; i++) {
+//     sum += nums[i]
+// }
+// console.log('sum', sum)
 
 
 // 1.Mult nums
@@ -53,3 +53,56 @@ console.log('sum', sum)
 // 3.select only true numbers
 // 4.sum only odd numbers
 // 5.mult only even numbers
+let val = 8.8
+
+// console.log(paseInt(65 / 3));
+
+// map,filter,findIndex,sort,reverse,slice
+
+const list = [4, , '6', 5, 7, 8, 10, 33, 0, 'Ulfat', true, undefined, null, false]
+
+// const nums2 = [4, 5, 7, 8, 10, 33, 0]
+
+// let result = nums2.map(item => item * 5)
+
+// let sum2 = 0
+// let indexOfNum2 = nums2.map((item, index) => item * index)
+// console.log('indexOfNum2', indexOfNum2)
+
+
+// let onlyNumbers = list.filter(item => !(item % 2))
+// console.log('onlyNumbers', onlyNumbers)
+
+
+
+const users = [
+    {
+        id: 1,
+        name: 'Nihad',
+        gender: 'Male',
+    },
+    {
+        id: 6,
+        name: 'Fidan',
+        gender: 'Female',
+    },
+    {
+        id: 2,
+        name: 'Sabir',
+        gender: 'Male',
+    },
+    {
+        id: 3,
+        name: 'Fatime',
+        gender: 'Female',
+    },
+    {
+        id: 4,
+        name: 'Aliriza',
+        gender: 'Male',
+    },
+]
+
+
+const result = users.filter(item => item.gender !== 'Male')
+console.log('result', result)
