@@ -23,14 +23,12 @@
 // }
 // console.log('test3', test);  // ?
 
-
 // console.log('test1', test);  // ?
 // {
 //     var test = "something"
 //     console.log('test2', test); // ?
 // }
 // console.log('test3', test); // ?
-
 
 ////////////// TASK 3 //////////////
 
@@ -46,37 +44,34 @@
 // let arr = ['a', 'b', 'c']
 
 ////////////// TASK 4 //////////////
-const arr1 = [9, 1, 5, 8, 9, 9, 3, 22, 11, 12, 32, 8]
+const arr1 = [9, 1, 5, 8, 9, 9, 3, 22, 11, 12, 32, 8];
 // 1.Sum all the numbers in 'arr1'
 // 2.Add two numbers (10,88) to end of arr1 (push methods)
 // 3.Remove first two numbers from arr1
 // 4.Add three numbers (0,9,11) in front of arr1(unshift)
 // 5.Remove four numbers in front of arr1(shift)
 
-
 ////////////// TASK 5 //////////////
 // 1.Create a object add your name, surname, age and city.
 // 2.Then change name to "Jhon"
 
-
 const user = {
-    email: 'ulfat@gmail.com',
+    email: "ulfat@gmail.com",
     info: {
-        gender: 'Male',
+        gender: "Male",
         loc: {
             city: "Baku",
-            street: 'Nizami 22',
+            street: "Nizami 22",
             education: {
                 "uni name": "ADNSU",
-            }
-        }
-    }
-}
+            },
+        },
+    },
+};
 
 // 3.console each value of user object
 // 4.Console only keys of user
 // 5.Console only values of user
-
 
 const mixedObject = {
     name: "ulfat",
@@ -85,10 +80,10 @@ const mixedObject = {
     hobbies: null,
     year: 2024,
     address: undefined,
-    surname: 'Zakirli',
+    surname: "Zakirli",
     contactInfo: {
         email: "ulfat@example.com",
-        phone: null
+        phone: null,
     },
     scores: [98, 87, 92],
 };
@@ -100,3 +95,28 @@ const mixedObject = {
 // 10.Log only the 'keys' whose values are of type object
 
 // 11.Repeat (6,7,8,9,10) tasks but now log 'values'
+
+// let, const are block scope
+// var is global scope
+
+// {
+//     const num = 9;
+//     console.log("num", num);
+// }
+
+
+// const a = 9;
+// a = 9
+// a = 9
+// a = 1
+// console.log('a', a)
+// a = 9
+// a = 19
+
+
+// {
+//     let a = 7
+//     console.log('inner', a);
+// }
+
+// console.log('outer', a);
