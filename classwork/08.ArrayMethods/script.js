@@ -96,7 +96,7 @@ const numbers = [9, 5, 3, 11, 12, 33, 22, 9, 11, 10, 0, 8]
 // 1.reverse 'numbers'
 // 2.sort asc
 // 3.sort desc
-// 4.splice '11' to '22'
+// 4.splice '11' to '22' (11,12,33,22)
 // 5.find first number which is equal 11
 // 6.filter numbers which is greater 10
 // 7.push 66 and 77 to 'numbers' array (end)
@@ -104,3 +104,13 @@ const numbers = [9, 5, 3, 11, 12, 33, 22, 9, 11, 10, 0, 8]
 // 9.remove 2 items (front)
 // 10.add 0,1,2 to 'numbers' (front)
 
+const letters = ['g', 'b', 'a', 'b']
+// 11.sort asc
+// 12.sort desc
+
+
+
+
+const list = ['c', 'a']
+list.sort((a, b) => a.localeCompare(b))
+console.log('list', list)
