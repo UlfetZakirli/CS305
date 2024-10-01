@@ -95,6 +95,7 @@ const users = [
         id: 3,
         name: 'Fatime',
         gender: 'Female',
+
     },
     {
         id: 4,
@@ -106,3 +107,8 @@ const users = [
 
 const result = users.filter(item => item.gender !== 'Male')
 console.log('result', result)
+// '=>' - arrow function
+// 1. Sum all age (map)🚀
+// 2. find only Females (filter) 😎
+// 3. find users whose age is greater than 25 (filter) 🥸
+// 4. mult each users age with 10 (map) 👻

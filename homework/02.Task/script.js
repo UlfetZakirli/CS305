@@ -73,22 +73,21 @@ const user = {
 // 4.Console only keys of user
 // 5.Console only values of user
 
-const mixedObject = {
-    name: "ulfat",
-    age: 25,
-    isStudent: false,
-    hobbies: null,
-    year: 2024,
-    address: undefined,
-    surname: "Zakirli",
-    contactInfo: {
-        email: "ulfat@example.com",
-        phone: null,
-    },
-    scores: [98, 87, 92],
-};
+const db = proccess.env.DB_URL
+const mixedObject = db
 
 // 6.Log only the 'keys' whose values are of type string
+// for (let key in user) {
+//     if (typeof user[key] === 'string') {
+//         console.log(user[key]);
+//     }
+// }
+
+// dev,
+// test,
+// pre - pro
+// pro
+
 // 7.Log only the 'keys' whose values are of type number
 // 8.Log only the 'keys' whose values are of type boolean
 // 9.Log only the 'keys' whose values are of type undefined
