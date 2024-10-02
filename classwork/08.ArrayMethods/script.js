@@ -165,7 +165,6 @@ const obj = {}
 // console.log(users.flat(Infinity))
 
 
-// const numbers = [9, 5, 3, 11, 12, 33, 22, 9, 11, 10, 0, 8]
 
 // let sum = 0
 // numbers.map((item) => sum += item)
@@ -174,5 +173,12 @@ const obj = {}
 // const sum2 = numbers.reduce((acc, item) => acc * item, 0)
 // console.log('sum2', sum2)
 
+// Class Task
+const numbers = [9, 5, 3, 11, 12, 33, 22, 9, 11, 10, 0, 8]
+const list = ['6', '3', true, 'a', undefined, false, 10, 11, 5]
+const list2 = ['a', ['f'], 7, ['d', [false]]]
 
 
+// 1.check if all item is greater than 5 (some)
+// 2.check if all item is greater than 2 (every)
+// 3.
