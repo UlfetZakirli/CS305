@@ -91,7 +91,7 @@ const obj = {}
 
 
 
-const numbers = [9, 5, 3, 11, 12, 33, 22, 9, 11, 10, 0, 8]
+// const numbers = [9, 5, 3, 11, 12, 33, 22, 9, 11, 10, 0, 8]
 
 // 1.reverse 'numbers'
 // 2.sort asc
@@ -104,13 +104,75 @@ const numbers = [9, 5, 3, 11, 12, 33, 22, 9, 11, 10, 0, 8]
 // 9.remove 2 items (front)
 // 10.add 0,1,2 to 'numbers' (front)
 
-const letters = ['g', 'b', 'a', 'b']
+// const letters = [2, 'a', 5, 11, 'b', 'f', 'd', 6, 1]
 // 11.sort asc
 // 12.sort desc
 
 
 
+// letters.sort((a, b) => {
+//     if (typeof a === 'number' && typeof b === 'number') {
+//         return a - b
+//     } else if (typeof a === 'string' && typeof b === 'string') {
+//         return a.localeCompare(b)
+//     }
+//     return typeof a === 'number' ? -1 : 1
+// })
 
-const list = ['c', 'a']
-list.sort((a, b) => a.localeCompare(b))
-console.log('list', list)
+// console.log('letters', letters)
+
+// if (7 > 8) {
+//     console.log('success')
+// } else {
+//     console.log('success')
+// }
+
+
+// 11 > 8 ? console.log('success') : console.log('fail');
+
+
+// filter,reverse,splice,map,slice,sort,shift,unshift,pop,push,find,includes,findIndex,concat,at
+// reduce,flat,some,every
+
+// const arr = [6, 3, 'Ulfat', 'a', true, 'a']
+// arr.splice(3, 0, 'Fidan')
+// console.log('arr', arr)
+// const result = arr.findIndex(item => item === 'a')
+// const result2 = arr.find(item => item === 'a')
+// console.log('result', result)
+// console.log('result2', result2)
+
+// const nums = [5, 3, 7, 8, 9, 13]
+// const a = [55]
+// const c = [...b, ...a]
+// console.log('c', c)
+
+// const result = nums.every((num) => 13 > 2)
+// const result2 = nums.some((num) => num > 110)
+// console.log('result', result)
+// console.log('result2', result2)
+
+
+// console.log(Math.min(...nums) * Math.max(...nums));
+
+// nums.sort((a, b) => a - b)
+// console.log(nums[0] * nums[nums.length - 1]);
+
+// '...' - spread and rest
+
+// const users = ['Sabir', ['Fatime', ['Gunel', ['f', [9]]], 'Eliriza'], 'Rufet', 'Eli']
+
+// console.log(users.flat(Infinity))
+
+
+// const numbers = [9, 5, 3, 11, 12, 33, 22, 9, 11, 10, 0, 8]
+
+// let sum = 0
+// numbers.map((item) => sum += item)
+// console.log('sum', sum)
+
+// const sum2 = numbers.reduce((acc, item) => acc * item, 0)
+// console.log('sum2', sum2)
+
+
+
