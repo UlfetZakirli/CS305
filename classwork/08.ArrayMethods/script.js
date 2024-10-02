@@ -179,6 +179,12 @@ const list = ['6', '3', true, 'a', undefined, false, 10, 11, 5]
 const list2 = ['a', ['f'], 7, ['d', [false]]]
 
 
-// 1.check if all item is greater than 5 (some)
-// 2.check if all item is greater than 2 (every)
-// 3.
+// 1.check 'numbers' if any item is greater than 5 (some)
+// 2.check 'numbers' if all item is greater than 2 (every)
+// 3.flat 'list2' deeps(2) (flat)
+// 4.flat 'list2' deeps(Infinity) (flat)
+// 5.sum all 'numbers' (reduce)
+// 6.sum only type number in 'list' (reduce)
+// 7.check 'list' array that all item is true value (not falsy value) (every)
+// 8.sort only numbers in 'list'
+
