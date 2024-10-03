@@ -51,6 +51,6 @@ const arr1 = [21, 33, 21, 21, 18, 24, 22, 23, 18, 23, 18, 33, 43]
 const arr2 = [20, 34, 17, 17, 18, 24, 22, 23, 18, 23, 18, 34, 43]
 
 // Tasks
-// 1. create function which calc a and b
-// 2. create function which sum 'arr1' or 'arr2'
-// 3. create function which take two parameters (firstName and lastName)
+// 1. create function which sum a and b
+// 2. create function which mult values of 'arr1' and 'arr2' (reduce)
+// 3. create function which take two parameters (firstName and lastName) 
