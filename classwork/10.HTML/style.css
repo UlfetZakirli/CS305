@@ -1,0 +1,57 @@
+h1 {
+    font-size: 20px;
+    color: red;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #000;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    padding-top: 10px;
+    height: 100vh;
+}
+
+form button {
+    width: 310px;
+    height: 35px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+
+/* class - '.'
+id - '#' */
+
+form .gender_box {
+    display: flex;
+    align-items: center;
+}
+
+form .gender_box input {
+    padding: 0;
+    width: 15px;
+    height: 20px;
+
+}
