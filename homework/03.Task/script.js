@@ -127,7 +127,8 @@ let arr2 = [
 ]
 
 
-//QEYD Bu tasklarda arr2 istifade edilecekdir
+//QEYD - !!! Bu tasklarda arr2 istifade edilecekdir və hər bir algorithm funksiya daxilində yazılmalıdır...
+
 // 16 arr2 de "name"-i "t" herfi ile bashlayan obyektleri yeni arraya yigin
 // 17 arr2 de "name"-i "t" herfi ile bashlayib "t" herfi ile biten obyektlerin sayini tapin
 // 18 arr2 de "name"-i "t" herfi ile bashlayib "t" herfi ile biten obyektlerin "key"- lerinin cemini tapin
